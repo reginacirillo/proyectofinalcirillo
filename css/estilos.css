@@ -5,8 +5,6 @@
 .colorFondo {
   background-color: #F5E8D5; }
 
-.alturaBanner {
-  height: 700px; }
 
 
 .tituloBlanco {
@@ -14,6 +12,7 @@
 }
 
 /*index */
+
 
 .textNav {
   color: #676A50;
@@ -27,7 +26,8 @@
   padding-top: 0;
   padding-bottom: 1.25rem;
   color: #fff;
-  text-align: center; }
+  text-align: center; 
+}
 
 .tipografia {
   font-family: 'Delius Unicase', cursive;
@@ -208,6 +208,24 @@
 /*media*/ 
 
 @media only screen and (max-width: 700px) {
+
+  .tipografia {
+    font-family: 'Delius Unicase', cursive;
+    padding: 30%; }
+
+  .fotoIndex {
+
+    position: absolute;
+    right: 15%;
+    top: 5rem;
+    left: 15%;
+    padding-top: 0;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center; 
+    height: 300px
+  }
+
 
   .masVendidos {
     display: flex;
